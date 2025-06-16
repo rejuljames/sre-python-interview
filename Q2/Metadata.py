@@ -1,6 +1,10 @@
 
 #https://reliabilitywhisperer.substack.com/p/practical-coding-interview-questions
 
+# Problem: You are given a file (files.txt) where each line represents a file entry with its path, size in bytes, 
+# and last modified timestamp (Unix epoch). 
+# The format is comma-separated: filepath,size,modified_timestamp.`
+
 from collections import defaultdict
 
 def metadata():
